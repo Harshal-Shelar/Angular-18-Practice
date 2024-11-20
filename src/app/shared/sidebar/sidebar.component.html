@@ -1,0 +1,76 @@
+<div class="sidebar">
+    <div class="logo-details">
+        <i class="bx bxl-angular icon"></i>
+        <div class="logo_name">Angular 18</div>
+        <i class="bx bx-menu" id="btn"></i>
+    </div>
+    <ul class="nav-list">
+        <li>
+            <i class="bx bx-search"></i>
+            <input type="text" placeholder="Search..." />
+            <span class="tooltip">Search</span>
+        </li>
+        <li>
+            <a routerLink="/ngIfngFor">
+                <i class="bx bx-grid-alt"></i>
+                <span class="links_name">Ng For and NgIf</span>
+            </a>
+            <span class="tooltip">Ng For and NgIf</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class="bx bx-user"></i>
+                <span class="links_name">Custom Pipe</span>
+            </a>
+            <span class="tooltip">Custom Pipe</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class="bx bx-chat"></i>
+                <span class="links_name">View Child</span>
+            </a>
+            <span class="tooltip">View Child</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class="bx bx-folder"></i>
+                <span class="links_name">View Children</span>
+            </a>
+            <span class="tooltip">View Children</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class="bx bx-cart-alt"></i>
+                <span class="links_name">Order</span>
+            </a>
+            <span class="tooltip">Order</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class="bx bx-heart"></i>
+                <span class="links_name">Saved</span>
+            </a>
+            <span class="tooltip">Saved</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class="bx bx-cog"></i>
+                <span class="links_name">Setting</span>
+            </a>
+            <span class="tooltip">Setting</span>
+        </li>
+        <li class="profile">
+            <div class="profile-details">
+                <!--<img src="profile.jpg" alt="profileImg">-->
+                <div class="name_job">
+                    <div class="name">Harshal Shelar</div>
+                    <div class="job">Angular Developer</div>
+                </div>
+            </div>
+            <i class="bx bx-log-out" id="log_out"></i>
+        </li>
+    </ul>
+</div>
+<section class="home-section">
+    <router-outlet></router-outlet>
+</section>
